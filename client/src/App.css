@@ -1,0 +1,19 @@
+.app { max-width: 1000px; margin: 0 auto; padding: 24px; text-align: left; }
+h1 { margin-bottom: 4px; }
+.subtitle { color: #666; margin-top: 0; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 20px; }
+.count { font-size: 3rem; font-weight: bold; margin: 10px 0; }
+.buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+button { padding: 8px 14px; border-radius: 8px; border: 1px solid #bbb; background: #f0f0f0; cursor: pointer; }
+button:hover { background: #e2e2e2; }
+label { font-size: 0.9rem; }
+input { display: block; width: 100%; padding: 8px; margin: 4px 0 12px; box-sizing: border-box; }
+pre { background: #1e1e1e; color: #d4d4d4; padding: 12px; border-radius: 8px; font-size: 0.8rem; white-space: pre-wrap; word-break: break-all; }
+.jwt-header { color: #f87171; }
+.jwt-payload { color: #c084fc; }
+.jwt-signature { color: #38bdf8; }
+.error { color: #dc2626; font-weight: bold; }
+.success { color: #16a34a; font-weight: bold; }
+.hint { color: #666; font-size: 0.85rem; }
+@media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
